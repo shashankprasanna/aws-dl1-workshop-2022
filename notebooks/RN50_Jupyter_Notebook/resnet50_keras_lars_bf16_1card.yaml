@@ -1,0 +1,29 @@
+model: "resnet_keras"
+env_variables:
+  TF_ENABLE_BF16_CONVERSION: 1
+  USE_LARS_OPTIMIZER: 1
+  TF_ALLOW_CONTROL_EDGES_IN_HABANA_OPS: 1
+  HABANA_NCCL_COMM_API: True
+  TF_DISABLE_MKL: 1
+
+parameters:
+  use_synthetic_data: true
+  skip_eval: true
+  batch_size: 256
+  steps_per_loop: 100
+  log_steps: 200
+  model_dir: "/root/tmp/resnet/"
+  enable_tensorboard: true
+  data_format: "channels_last"
+  train_steps: 1000
+  use_horovod: false
+  optimizer: "LARS"
+  lr_schedule: "polynomial"
+  data_loader_image_type: "bf16"
+  weight_decay: 0.0001
+  label_smoothing: 0.1
+  base_learning_rate: 2.5
+  warmup_epochs: 3
+  distribution_strategy: "off"
+  num_gpus: 0
+  single_l2_loss_op: true
