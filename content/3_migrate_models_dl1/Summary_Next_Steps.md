@@ -1,7 +1,7 @@
 ---
 title: "3.6 Summary and Next Steps"
 chapter: false
-weight: 4
+weight: 3
 ---
 
-Summary and Next Steps
+Summary and Next Steps after the workshop
