@@ -14,4 +14,4 @@ We will start with the existing models from the Habana Model References and then
 1. Training instances on EC2 DL1 using models on Habana Github [Model-References](https://github.com/HabanaAI/Model-References) Repository
 2. Migrating models on to EC2 DL1 and training models using TensorFlow Public Model
 
-At the end of this workshop, the user will be familiar with how to run models on the DL1 instance
+At the end of this workshop, the user will be familiar with how to run models on the DL1 instance and be able to do basic model migration
