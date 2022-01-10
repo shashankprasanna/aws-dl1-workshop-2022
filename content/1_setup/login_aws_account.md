@@ -1,6 +1,6 @@
 ---
 title: "1.1 Login to your temporary workshop AWS Account"
-weight: 1
+weight: 2
 chapter: false
 ---
 

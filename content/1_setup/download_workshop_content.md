@@ -1,6 +1,6 @@
 ---
 title: "1.2 Download workshop content"
-weight: 2
+weight: 1
 chapter: false
 ---
 
