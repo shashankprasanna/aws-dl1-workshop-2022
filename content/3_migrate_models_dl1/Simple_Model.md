@@ -1,4 +1,4 @@
 ---
-title: "2.1 Download habana Models"
+title: "3.1 Simple Model Example"
 weight: 1
 ---

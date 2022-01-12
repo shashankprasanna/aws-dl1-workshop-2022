@@ -3,20 +3,20 @@ title: "2.1 Download habana Models"
 weight: 1
 ---
 
-Training on Habana from the GH Repo.
+#### Training on Habana from the Model-References GitHub repository
 
-This section will have the details and summary of what the Model-References GH section is
-and an overview of what's available
+Habana has a [Model-References GitHub Page](https://github.com/HabanaAI/Model-References) with a list of reference models that are optimized to run on Gaudi
+![](/images/getting_started/habana_gh_header.png)
 
-1. here's where the repository is
-    show a pic of the repo, so it's understood what is available.
+There are models for TensorFlow and PyTorch covering Computer Vision and NLP usages 
 
-2. How do get models from the repository
-    specifically TF models
-    
-3. how to use the models
-    Cover 3 areas
-        download the model
-        prepare the dataset
+Focus will be on TensorFlow ResNet50 Keras and BERT examples in this workshop.   In general, when using the Full DLAMI, the user will need to to the following to run Habana models: 
 
-## Open the following notebook to follow along
+1. Clone the GitHub Repository
+2. Set the PYTHON ENV Variable
+    `export PYTHON=/usr/bin/python3.7` for Ubuntu18.04
+3. Download appropriate dataset
+4. Select Hyperparameters an options
+5. Train and post processing
+
+

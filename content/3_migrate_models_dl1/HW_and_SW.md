@@ -1,7 +1,7 @@
 ---
-title: "3.1 Habana Hardware and Software"
+title: "3.2 Habana Hardware and Software"
 chapter: false
-weight: 1
+weight: 2
 ---
 
 
