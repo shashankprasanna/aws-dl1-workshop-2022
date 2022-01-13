@@ -4,9 +4,6 @@ weight: 1
 chapter: false
 ---
 
-{{% notice tip %}}
-Feel free to follow along with the presenter on the stage or on livestream
-{{% /notice %}}
 
 #### Get your temporary AWS account
 

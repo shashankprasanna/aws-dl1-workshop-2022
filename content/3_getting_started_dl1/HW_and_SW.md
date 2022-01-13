@@ -1,5 +1,5 @@
 ---
-title: "3.4 Habana Hardware and Software"
+title: "3.3 Overview: Habana Hardware and Software"
 chapter: false
 weight: 5
 ---

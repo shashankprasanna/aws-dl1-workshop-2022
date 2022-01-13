@@ -45,19 +45,19 @@ pip3 install jupyterlab
 Note: For this step to work, please disconnect from VPN or corporate network which may block port forwarding.
 {{% /notice %}}
 
-##### In the current terminal window connected to DL1 instance, run the following:
+##### In the current terminal connected to DL1 instance, run the following:
 
 ```
 jupyter notebook --ip='*' --NotebookApp.token='' --NotebookApp.password=''
 ```
-##### Output:
+##### This should launch the Jupyter server. Output should like this:
 ![](/images/setup/setup23-1.jpg)
 
-##### In a second terminal window on your machine setup port forwarding:
+##### In a second new terminal window setup port forwarding. This step is needed for your computer to access Jupyter server on Amazon EC2
 ```
 ssh -i labsuser.pem -N -L 0.0.0.0:8888:localhost:8888 -L 0.0.0.0:6006:localhost:6006 ubuntu@<IP_ADDRESS>
 ```
-### You must have 2 terminal windows open. 1 with Jupyter Server running
+### You must have 2 terminal windows open. 1st with Jupyter Server running and 2nd with port forwarding.
 
 ![](/images/setup/setup24.jpg)
 
@@ -66,5 +66,9 @@ ssh -i labsuser.pem -N -L 0.0.0.0:8888:localhost:8888 -L 0.0.0.0:6006:localhost:
 localhost:8888/lab
 ```
 ### You should see Jupyter lab client on your browser, with the server running on DL1 instance
+
+{{% notice tip %}}
+Use the discord chatroom if you have trouble setting up Jupyter Lab. One of the TAs will assist you.
+{{% /notice %}}
 
 ![](/images/setup/setup25.jpg)

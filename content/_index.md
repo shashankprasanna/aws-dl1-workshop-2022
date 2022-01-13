@@ -6,11 +6,11 @@ weight: 1
 
 # Getting Started with Amazon EC2 DL1 instances
 
-#### Presenters
+#### Workshop Team
 
-| Shashank Prasanna, <br>Sr. Developer Advocate, AI/ML      | Greg Serochi <br> Intel |
+| Shashank Prasanna, AWS <br>Sr. Developer Advocate, AI/ML <br>**Twitter:** [@shshnkp](https://twitter.com/shshnkp)<br>[linkedin.com/in/shashankprasanna](https://www.linkedin.com/in/shashankprasanna)| Greg Serochi <br> Application Engineer and Technical Program Manager, Habana Labs <br><br><br>|
 | ----------- | ----------- |
-| **Twitter:** [@shshnkp](https://twitter.com/shshnkp)<br>**LinkedIn:** [linkedin.com/in/shashankprasanna](https://www.linkedin.com/in/shashankprasanna)<br> **Blog:** [medium.com/@shashankprasanna](https://www.medium.com/@shashankprasanna)    |  |
+| **Shiv Kaul, Habana Labs** <br>Deep Learning Software Engineer    | **Mandy Li, Habana Labs** <br> Deep Learning Software Engineer|
 
 #### Workshop Overview
 **Workshop duration: 4 hours**
@@ -26,4 +26,4 @@ weight: 1
 | Getting started | 45 mins        |
 | Deep Learning Training with Habana Models | 45 mins        |
 | Deep Learning with Custom Models | 60 mins        |
-| Wrap Up   | 20 mins        |
+| Wrap Up & Questions   | 30-60 mins        |
