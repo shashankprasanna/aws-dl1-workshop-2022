@@ -1,5 +1,5 @@
 ---
-title: "2. Deep Learning Training with Habana Models"
+title: "3. Deep Learning Training with Habana Models"
 chapter: false
 weight: 3
 ---

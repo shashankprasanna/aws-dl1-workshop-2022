@@ -1,5 +1,5 @@
 ---
-title: "3. Clean up resources"
+title: "5. Clean up resources"
 chapter: false
 weight: 6
 ---

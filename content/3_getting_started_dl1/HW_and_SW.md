@@ -1,7 +1,7 @@
 ---
-title: "3.2 Habana Hardware and Software"
+title: "3.4 Habana Hardware and Software"
 chapter: false
-weight: 2
+weight: 5
 ---
 
 
@@ -40,9 +40,7 @@ Popular DL frameworks such as TensorFlow and PyTorch are integrated with Synapse
 #### Habana Communication Libraries
 The Habana Communication Library (HCL) enables efficient scale-up communication between Gaudi processors within a single node and scale-out across nodes for distributed training, leveraging Gaudi’s high performance RDMA communication capabilities. It has an MPI look-and-feel and supports point-to- point operations (for example, Write, Send) and collective operations (for example, AllReduce, AlltoAll) that are performance optimized for Gaudi. See Habana Communication Library (HCL) API Reference for further details.
 
-The SynapseAI suite main interface is the Habana Collective Communications Library (HCCL) which is Habana’s implementation of standard collective communication routines with NCCL-compatible API. HCL uses Gaudi integrated NICs for both scale-up and scale-out. HCCL allows users to enable Gaudi integrated NIC for scale-up and host NIC for scale-out. 
+The SynapseAI suite main interface is the Habana Collective Communications Library (HCCL) which is Habana’s implementation of standard collective communication routines with NCCL-compatible API. HCL uses Gaudi integrated NICs for both scale-up and scale-out. HCCL allows users to enable Gaudi integrated NIC for scale-up and host NIC for scale-out.
 
 #### TPC Programming
 The SynapseAI TPC SDK includes an LLVM-based TPC-C compiler, a simulator and debugger. These tools facilitate the development of custom TPC kernels. This SDK is used by Habana to build the high-performance kernels we provide to users. You can thereby develop customized deep learning models and algorithms on Gaudi to innovate and optimize to your unique requirements.
-
-
