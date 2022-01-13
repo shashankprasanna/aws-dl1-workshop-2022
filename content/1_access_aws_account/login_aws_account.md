@@ -47,3 +47,7 @@ chmod 400 labsuser.pem
 {{% notice warning %}}
 Note: If you saved the labsuser.pem at a different location, make sure to use the correct path.
 {{% /notice %}}
+
+![](/images/setup/setup12.jpg)
+
+![](/images/setup/setup13-1.jpg)

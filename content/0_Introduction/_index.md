@@ -1,5 +1,5 @@
 ---
-title: "Why accelerators for deep learning?"
+title: "Concepts: Why accelerators for deep learning?"
 chapter: false
 weight: 2
 ---

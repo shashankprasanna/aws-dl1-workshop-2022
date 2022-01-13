@@ -1,6 +1,6 @@
 ---
-title: "3.2 Notebook: Migrating TensorFlow EfficientNet to Habana Gaudi"
-weight: 3
+title: "3.4 Notebook: Migrating TensorFlow EfficientNet to Habana Gaudi"
+weight: 30
 ---
 
 #### Open the following notebook:

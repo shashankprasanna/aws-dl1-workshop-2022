@@ -8,7 +8,6 @@ chapter: false
 Feel free to follow along with the presenter on the stage or on livestream
 {{% /notice %}}
 
-![](/images/setup/setup12.jpg)
 
 ![](/images/setup/setup13-1.jpg)
 
