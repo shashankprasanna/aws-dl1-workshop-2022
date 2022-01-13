@@ -11,7 +11,7 @@ weight: 5
 #### https://aws.amazon.com/blogs/machine-learning/
 
 ### 3. Habana Developer Page
-#### https://developer.habana.ai
+#### https://developer.habana.ai  
 
 ### 4. Habana Videos
-#### https://videos.habana.ai
+#### https://videos.habana.ai  

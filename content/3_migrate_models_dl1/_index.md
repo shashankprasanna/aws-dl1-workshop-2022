@@ -23,7 +23,7 @@ The TensorFlow framework controls most of the objects required for graph build o
 
 ```{python}
 import tensorflow as tf 
-from habana_frameworks.tensorflow import load_habana_module 
+from TensorFlow.common.library_loader import load_habana_module
 load_habana_module()
 ```
 Once loaded, the Gaudi HPU is registered in TensorFlow and prioritized over CPU. This means that when a given Op is available for both CPU and the Gaudi HPU, the Op is assigned to the Gaudi HPU.  When the model is ported to run on the Gaudi HPU, the software stack decides which ops are placed on the CPU and which are placed on the Gaudi HPU.  The optimization pass automatically places unsupported ops on the CPU.  Ops that do not run on the Gaudi HPU should default to run on the host CPU.    
