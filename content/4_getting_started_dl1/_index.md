@@ -1,7 +1,7 @@
 ---
-title: "3. Deep Learning Training with Habana Models"
+title: "4. Deep Learning Training with Habana Models"
 chapter: false
-weight: 3
+weight: 4
 ---
 
 #### In this workshop we will showcase the AWS DL1 instance featuring the Habana(R) Gaudi HPU

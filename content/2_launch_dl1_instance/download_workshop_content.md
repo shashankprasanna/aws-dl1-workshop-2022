@@ -17,5 +17,3 @@ git clone https://github.com/shashankprasanna/aws-dl1-workshop-2022.git
 ![](/images/setup/setup27.jpg)
 
 ![](/images/setup/setup29.jpg)
-
-![](/images/setup/setup30.jpg)

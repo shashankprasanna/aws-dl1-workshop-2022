@@ -1,10 +1,10 @@
 ---
-title: "4. Model Migration and Custom Models"
+title: "3. Training BYO and public models on Habana"
 chapter: false
-weight: 4
+weight: 3
 ---
 
-#### In this section we will show how to migrate public models over to Habana
+#### In this section we will show how to bring your own models over to Habana
 
 We'll use two models as examples
 

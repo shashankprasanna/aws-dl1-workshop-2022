@@ -1,7 +1,7 @@
 ---
-title: "4.3 Summary and Next Steps"
+title: "5. Summary and Next Steps"
 chapter: false
-weight: 5
+weight: 10
 ---
 
 Users should continuing to run Models from the Habana Model References or brining your own model to DL1 instance; users can refer to additional collateral and videos to continue

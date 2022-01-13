@@ -1,9 +1,11 @@
 ---
-title: "4.2 Notebook: Migrating TensorFlow EfficientNet to Habana Gaudi"
+title: "3.2 Notebook: Migrating TensorFlow EfficientNet to Habana Gaudi"
 weight: 3
 ---
 
+#### Open the following notebook:
 
+`aws-dl1-workshop-2022/notebooks/2_EfficientNet_Jupyter_Notebook`
 
 In this session, we will learn how to migrate EfficientNet in public
 TensorFlow [model garden](https://github.com/tensorflow/models/tree/master/official/vision/image_classification) to
@@ -14,12 +16,6 @@ script to load Habana software modules and enable it on HPU.
 First of all, let's check the current directory to prepare for cloning TensorFlow models repository.
 
     %pwd
-
-The output should look like the following if you are in the $HOME folder:
-
-```
-'/home/ubuntu'
-```
 
 Then, we will clone TensorFlow [models](https://github.com/tensorflow/models.git)  repository to the current directory.
 
@@ -57,50 +53,6 @@ The following output indicates the repository was successfully cloned:
     Resolving deltas: 100% (1944/1944), done.
 
 
-Verify if both repositories were cloned successfully and show up in the current location.
-
-```python
-%ls
-```
-
-The `Model-References` and `models` folder should show up in the output:
-
-    BUILD_FROM_SOURCE_PACKAGES_LICENCES  Model-References
-    EfficientNet.ipynb                   PYTHON_PACKAGES_LICENSES
-    LINUX_PACKAGES_LICENSES              THIRD_PARTY_SOURCE_CODE_URLS
-    LINUX_PACKAGES_LIST                  models
-
-
-Set Python3.7 as executable Python for EfficientNet training since in this DLAMI,
-the Deep Learning packages were installed under Python3.7 location.
-
-Check where Python 3.7 was installed in the current AMI:
-
-```python
-!which python3.7
-```
-
-The following output indicates Python 3.7 location:
-
-    /usr/bin/python3.7
-
-Set Python 3.7 as the executable Python for training EfficientNet workload with the following command:
-
-```python
-%set_env PYTHON=/usr/bin/python3.7
-```
-
-Check if Python3.7 was set to executable Python successfully.
-
-```python
-!$PYTHON --version
-```
-
-The output should be:
-
-    Python 3.7.5
-
-
 Check if the current PYTHONPATH contains TensorFlow `models` location and Habana `Model-References` location.
 If not, add them to PYTHONPATH:
 
@@ -114,7 +66,7 @@ then add them. The following command assumes the repositories were cloned to `/h
 
 
 ```python
-%set_env PYTHONPATH=/home/ubuntu/Model-References:/home/ubuntu/models
+%set_env PYTHONPATH=/home/ubuntu/aws-dl1-workshop-2022/notebooks/3_EfficientNet_Jupyter_Notebook/Model-References:/home/ubuntu/aws-dl1-workshop-2022/notebooks/3_EfficientNet_Jupyter_Notebook/models
 ```
 
 Verify if the repository locations were added to the PYTHONPATH with the command above.
@@ -122,11 +74,6 @@ Verify if the repository locations were added to the PYTHONPATH with the command
 ```python
 %env PYTHONPATH
 ```
-
-The output should contain `Model-References` location and `models` location:
-
-    '/home/ubuntu/Model-References:/home/ubuntu/models'
-
 
 We will be using TensorFlow Keras EfficientNet at https://github.com/tensorflow/models/tree/master/official/vision/image_classification
 as the example to demonstrate how to enable a public model on Habana Gaudi device.
@@ -177,7 +124,7 @@ Save the file.
 
 
 The modified configuration file looks like the following:
-![efficientnet_config](enet_config.png)
+![efficientnet_config](/images/migrate/enet_config.png)
 
 After we modify the EfficientNet configuration file above, we can run the following command to launch the training on CPU for 1000 iterations. We will skip evaluations in order to focus on training. Check the throughput for performance in the output log.
 
@@ -222,7 +169,7 @@ logging.info('Devices:\n%s', log_info_devices)
 
 The modified training script looks like the following:
 
-![enet_script](enet_script.png)
+![enet_script](/images/migrate/enet_script.png)
 
 Save the file.
 

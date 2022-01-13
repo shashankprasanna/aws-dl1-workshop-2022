@@ -1,5 +1,13 @@
 ---
-title: "Workshop Overview"
+title: "Why accelerators for deep learning?"
 chapter: false
-weight: 1
+weight: 2
 ---
+
+### Why we need accelerators for training?
+
+![](/images/overview1.jpg)
+
+![](/images/overview2.jpg)
+
+![](/images/overview3.jpg)
