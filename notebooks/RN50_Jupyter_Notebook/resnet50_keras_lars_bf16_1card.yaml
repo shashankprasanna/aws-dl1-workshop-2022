@@ -2,8 +2,6 @@ model: "resnet_keras"
 env_variables:
   TF_ENABLE_BF16_CONVERSION: 1
   USE_LARS_OPTIMIZER: 1
-  TF_ALLOW_CONTROL_EDGES_IN_HABANA_OPS: 1
-  HABANA_NCCL_COMM_API: True
   TF_DISABLE_MKL: 1
 
 parameters:
@@ -12,7 +10,7 @@ parameters:
   batch_size: 256
   steps_per_loop: 100
   log_steps: 200
-  model_dir: "/root/tmp/resnet/"
+  model_dir: "model_tmp"
   enable_tensorboard: true
   data_format: "channels_last"
   train_steps: 1000

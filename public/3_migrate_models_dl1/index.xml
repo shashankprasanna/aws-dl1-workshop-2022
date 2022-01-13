@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. Model Migration on Getting Started with Amazon SageMaker Studio</title>
+    <link>/3_migrate_models_dl1.html</link>
+    <description>Recent content in 3. Model Migration on Getting Started with Amazon SageMaker Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/3_migrate_models_dl1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.1 Simple Model Example</title>
+      <link>/3_migrate_models_dl1/simple_model.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/simple_model.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.2 Habana Hardware and Software</title>
+      <link>/3_migrate_models_dl1/hw_and_sw.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/hw_and_sw.html</guid>
+      <description>Hardware Gaudi is designed from the ground up for accelerating DL training workloads. Its heterogeneous architecture comprises a cluster of fully programmable Tensor Processing Cores (TPC) along with its associated development tools and libraries, and a configurable Matrix Math engine.
+The TPC core is a VLIW SIMD processor with instruction set and hardware tailored to serve training workloads efficiently. It is programmable, providing the user with maximum flexibility to innovate, coupled with many workload-oriented features, such as:</description>
+    </item>
+    
+    <item>
+      <title>3.3 EfficientNet Notebook</title>
+      <link>/3_migrate_models_dl1/efficientnet.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/efficientnet.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.4 More Details on Customization and Model Migration</title>
+      <link>/3_migrate_models_dl1/next_details_on_customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/next_details_on_customization.html</guid>
+      <description>Next Detail on Customization and Model Migration</description>
+    </item>
+    
+    <item>
+      <title>3.5 Summary and Next Steps</title>
+      <link>/3_migrate_models_dl1/summary_next_steps.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/summary_next_steps.html</guid>
+      <description>Users should continuing to run Models from the Habana Model References or brining your own model to DL1 instance; users can refer to additional collateral and videos to continue
+Habana&amp;rsquo;s collateral - Habana Videos - Developer Website - Documentation - Model Repository
+Habana&amp;rsquo;s content in the AWS Marketplace and Elastic Container Registry - AWS Marketplace - Base AMI images with Habana SynaspeAI &amp;reg; Software Stack - ECR Gallery - for TensorFlow and PyTorch Images to pair with Base AMI images</description>
+    </item>
+    
+  </channel>
+</rss>

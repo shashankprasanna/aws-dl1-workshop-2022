@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started with Amazon EC2 DL1 instances on Getting Started with Amazon SageMaker Studio</title>
+    <link>/</link>
+    <description>Recent content in Getting Started with Amazon EC2 DL1 instances on Getting Started with Amazon SageMaker Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.1 Login to your temporary workshop AWS Account</title>
+      <link>/1_getting_started/login_aws_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1_getting_started/login_aws_account.html</guid>
+      <description>Get your temporary AWS account Click on the link at the bottom of the browser as show below.
+If using Windows Save file to a convenient location such as your Desktop
+If using MAC/Ubuntu  Save file to a convenient location such as Desktop You&amp;rsquo;ll need to perform update the file&amp;rsquo;s permissions by running the code below the screenshot in your terminal  Note: advanced users may optionally save it at ~/.</description>
+    </item>
+    
+    <item>
+      <title>2.1 Download habana Models</title>
+      <link>/2_getting_started_dl1/download_habana_models.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2_getting_started_dl1/download_habana_models.html</guid>
+      <description>Training on Habana from the Model-References GitHub repository Habana has a Model-References GitHub Page with a list of reference models that are optimized to run on Gaudi There are models for TensorFlow and PyTorch covering Computer Vision and NLP usages
+Focus will be on TensorFlow ResNet50 Keras and BERT examples in this workshop. In general, when using the Full DLAMI, the user will need to to the following to run Habana models:</description>
+    </item>
+    
+    <item>
+      <title>3.1 Simple Model Example</title>
+      <link>/3_migrate_models_dl1/simple_model.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/simple_model.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentation resources</title>
+      <link>/appendix/docs.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/appendix/docs.html</guid>
+      <description>1. SageMaker SDK API guide https://sagemaker.readthedocs.io/en/stable/
+2. SageMaker Sample Notebooks on GitHub https://github.com/awslabs/amazon-sagemaker-examples
+3. SageMaker Developer Guide https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+4. SageMaker API Reference https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_Operations_Amazon_SageMaker_Service.html</description>
+    </item>
+    
+    <item>
+      <title>1.2 Launch an Amazon EC2 DL1 instance</title>
+      <link>/1_getting_started/launch_dl1_instance.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1_getting_started/launch_dl1_instance.html</guid>
+      <description> Get your temporary AWS account </description>
+    </item>
+    
+    <item>
+      <title>2.2 ResNet50 Keras Notebook</title>
+      <link>/2_getting_started_dl1/rs50.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2_getting_started_dl1/rs50.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.2 Habana Hardware and Software</title>
+      <link>/3_migrate_models_dl1/hw_and_sw.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/hw_and_sw.html</guid>
+      <description>Hardware Gaudi is designed from the ground up for accelerating DL training workloads. Its heterogeneous architecture comprises a cluster of fully programmable Tensor Processing Cores (TPC) along with its associated development tools and libraries, and a configurable Matrix Math engine.
+The TPC core is a VLIW SIMD processor with instruction set and hardware tailored to serve training workloads efficiently. It is programmable, providing the user with maximum flexibility to innovate, coupled with many workload-oriented features, such as:</description>
+    </item>
+    
+    <item>
+      <title>1.3 Launch Jupyterlab server</title>
+      <link>/1_getting_started/launch_jupyter_dl1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1_getting_started/launch_jupyter_dl1.html</guid>
+      <description>Launch Jupyterlab server on your DL1 instance SSH to your DL1 instance cd cd Desktop ssh -i labsuser.pem ubuntu@&amp;lt;PASTE_IP_ADDRESS&amp;gt;  Note: Make sure you give the full path to the labsuser.pem file or navigate to the directory where you saved the file before running SSH
+ Update python3 to point to python3.7 with Habana support sudo rm /usr/bin/python3 sudo ln -s /usr/bin/python3.7 /usr/bin/python3  Install Jupyterlab server pip3 install jupyterlab  Jaunch Jupyterlab server and setup tunnel In the current terminal window connected to DL1 instance, run: jupyter notebook --ip=&#39;*&#39; --NotebookApp.</description>
+    </item>
+    
+    <item>
+      <title>2.3 Bert Notebook</title>
+      <link>/2_getting_started_dl1/bert.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2_getting_started_dl1/bert.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.3 EfficientNet Notebook</title>
+      <link>/3_migrate_models_dl1/efficientnet.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/efficientnet.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delete all resources</title>
+      <link>/4_clean-up/cleanup.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/4_clean-up/cleanup.html</guid>
+      <description>This workshop creates the following resources:
+TBD</description>
+    </item>
+    
+    <item>
+      <title>3.4 More Details on Customization and Model Migration</title>
+      <link>/3_migrate_models_dl1/next_details_on_customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/next_details_on_customization.html</guid>
+      <description>Next Detail on Customization and Model Migration</description>
+    </item>
+    
+    <item>
+      <title>Technical papers</title>
+      <link>/appendix/resources.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/appendix/resources.html</guid>
+      <description> 1. Whitepaper on AI Fairness https://pages.awscloud.com/rs/112-TZM-766/images/Amazon.AI.Fairness.and.Explainability.Whitepaper.pdf 2. Paper on Debugging ML models https://www.amazon.science/publications/amazon-sagemaker-debugger-a-system-for-real-time-insights-into-machine-learning-model-training </description>
+    </item>
+    
+    <item>
+      <title>1.4 Download workshop content</title>
+      <link>/1_getting_started/download_workshop_content.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1_getting_started/download_workshop_content.html</guid>
+      <description> Feel free to follow along with the presenter on the stage or on livestream
+ </description>
+    </item>
+    
+    <item>
+      <title>3.5 Summary and Next Steps</title>
+      <link>/3_migrate_models_dl1/summary_next_steps.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/3_migrate_models_dl1/summary_next_steps.html</guid>
+      <description>Users should continuing to run Models from the Habana Model References or brining your own model to DL1 instance; users can refer to additional collateral and videos to continue
+Habana&amp;rsquo;s collateral - Habana Videos - Developer Website - Documentation - Model Repository
+Habana&amp;rsquo;s content in the AWS Marketplace and Elastic Container Registry - AWS Marketplace - Base AMI images with Habana SynaspeAI &amp;reg; Software Stack - ECR Gallery - for TensorFlow and PyTorch Images to pair with Base AMI images</description>
+    </item>
+    
+    <item>
+      <title>Blogposts and videos</title>
+      <link>/appendix/blogposts_videos.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/appendix/blogposts_videos.html</guid>
+      <description> 1. ML blog posts https://medium.com/@shashankprasanna 2. AWS Blog posts https://aws.amazon.com/blogs/machine-learning/ 3. Habana Developer Page https://developer.habana.ai 4. Habana Videos https://videos.habana.ai </description>
+    </item>
+    
+  </channel>
+</rss>
